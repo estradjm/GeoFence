@@ -3,7 +3,7 @@
 /*
    This program uses the TinyGPS library to parse Latitude and Longitude coordinates from a Sparkfun GPS Logger Shield connected to an Arduino UNO.
    The 9600-baud serial GPS device is hooked up on pins 9(rx) and 8(tx). LED in pin 13 will turn on when the device leaves the geofenced area, otherwise, 
-   the LED will be off. Modified version of Mikal Hart's DeviceExample.ino from TinyGPSPlus-0.94b.
+   the LED will be off (LED pin to simulate the relay). Modified version of Mikal Hart's DeviceExample.ino from TinyGPSPlus-0.94b.
 */
 static const int RXPin = 9, TXPin = 8;
 static const uint32_t GPSBaud = 9600;
